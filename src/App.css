@@ -1,0 +1,83 @@
+.body {
+  height: 97vh;
+  margin: 0 auto;
+  display: flex;
+  max-width: 80rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.content {
+  width: 100%;
+  height: 90vh;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  scrollbar-color: red;
+}
+.content p {
+  max-width: 60rem;
+}
+
+.content pre {
+  overflow-x: auto;
+  max-width: 70rem;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form input {
+  flex: 1;
+  height: 3rem;
+  border-radius: 1rem;
+  color: white;
+  background: rgb(31, 63, 63);
+  border: none;
+  padding-left: 2rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+form button {
+  width: 3rem;
+  color: rgb(224, 228, 228);
+  background: rgba(176, 180, 180, 0);
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.loading {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: wheat;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.line {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
+  width: 70%;
+  height: 1px;
+  background-color: white;
+}
